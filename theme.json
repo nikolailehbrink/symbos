@@ -8,14 +8,14 @@
     "color": {
       "palette": [
         {
-          "name": "Primary",
-          "slug": "primary",
+          "name": "Cerulean",
+          "slug": "cerulean",
           "color": "#0EA5E9"
         },
         {
-          "name": "Secondary",
-          "slug": "secondary",
-          "color": "#14B8A6"
+          "name": "Pumpkin",
+          "slug": "pumpkin",
+          "color": "#FF8116"
         },
         {
           "name": "Dark",
