@@ -33,4 +33,7 @@ module.exports = {
     plugins: [
         tailpress.tailwind
     ]
+      fontFamily: {
+        blinker: ["Blinker", ...defaultTheme.fontFamily.sans],
+      },
 };

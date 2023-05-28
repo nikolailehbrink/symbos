@@ -88,6 +88,16 @@ function tailpress_enqueue_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'tailpress_enqueue_scripts' );
+// Add fonts to <head>
+function symbos_preload_fonts()
+{
+?>
+	<link rel="preload" href="/wp-content/themes/symbos/fonts/blinker-bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/wp-content/themes/symbos/fonts/blinker-extralight.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/wp-content/themes/symbos/fonts/blinker-regular.woff2" as="font" type="font/woff2" crossorigin>
+<?php
+};
+add_action('wp_head', 'symbos_preload_fonts');
 
 /**
  * Get asset path.
