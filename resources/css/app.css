@@ -1,5 +1,8 @@
+@import "swiper/swiper-bundle.css";
+
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
 @import "custom.css";
+@import "typo.css";
