@@ -2,6 +2,33 @@ article > *:not(.entry-content),
 .entry-content > * {
   @apply mx-auto max-w-content;
 }
+@layer components {
+  .btn {
+    @apply flex justify-center items-center px-8 py-3 font-bold tracking-wide border-2 rounded-full;
+    &.btn-shadow {
+      @apply shadow-btn;
+    }
+    &.btn-cerulean {
+      @apply hover:bg-cerulean-400 border-cerulean-300 bg-cerulean-500 shadow-cerulean-300;
+    }
+    &.btn-pumpkin {
+      @apply hover:bg-pumpkin-400 border-pumpkin-300 bg-pumpkin-500 shadow-pumpkin-300;
+    }
+  }
+}
+
+@layer components {
+  .badge {
+    @apply inline-flex justify-center px-8 py-3 font-bold tracking-wide rounded-full;
+    &.badge-cerulean {
+      @apply bg-cerulean-500;
+    }
+    &.badge-pumpkin {
+      @apply bg-pumpkin-500;
+    }
+  }
+}
+
 .custom-logo-link {
   @apply h-14 w-14;
   img {

@@ -60,7 +60,7 @@
 				</ul>
 				<div class="flex justify-end flex-1">
 
-					<a class="flex justify-center px-8 py-4 font-bold tracking-wide border-2 rounded-full hover:bg-cerulean-400 border-cerulean-300 bg-cerulean-500" href="#contact"><?php _e('Kontaktieren', 'symbos') ?></a>
+					<a class="btn btn-cerulean" href="#contact"><?php _e('Kontaktieren', 'symbos') ?></a>
 				</div>
 
 
