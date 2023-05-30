@@ -1,15 +1,15 @@
 {
-	"name": "tailpress",
-	"version": "3.2.0",
+	"name": "symbos",
+	"version": "0.1.0",
 	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"author": "Nikolai Lehbrink",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jeffreyvr/tailpress"
+		"url": "https://github.com/nikolailehbrink/symbos"
 	},
-	"theme_uri": "https://github.com/jeffreyvr/tailpress",
-	"author_uri": "https://vanrossum.dev",
-	"text_domain": "tailpress",
+	"theme_uri": "https://github.com/nikolailehbrink/symbos",
+	"author_uri": "https://nikolailehbr.ink",
+	"text_domain": "symbos",
 	"license": "MIT",
 	"scripts": {
 		"production:css-app": "cross-env NODE_ENV=development tailwindcss -i ./resources/css/app.css -o ./css/app.css --postcss --minify",
