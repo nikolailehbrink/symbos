@@ -39,7 +39,7 @@
         {
           "slug": "regular",
           "name": "Regular",
-          "size": "1.5rem"
+          "size": "1rem"
         },
         {
           "slug": "large",
@@ -63,5 +63,11 @@
         }
       ]
     }
-  }
+  },
+    "styles": {
+    		"typography": {
+			"fontSize": "17px",
+			"lineHeight": "1.5"
+		}
+	}
 }
