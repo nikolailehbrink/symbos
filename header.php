@@ -17,7 +17,7 @@
 
 
 		<header class="container sticky flex mx-auto mt-4 top-4">
-			<nav class="flex w-full p-2 border-2 rounded-full border-cod-gray-200">
+			<nav class="flex w-full p-2 border-2 rounded-full border-cod-gray-200 bg-cod-gray-500">
 				<div class="relative flex items-center flex-1">
 					<?php if (has_custom_logo()) { ?>
 						<?php the_custom_logo(); ?>
@@ -116,7 +116,6 @@
 
 		<div id="content" class="flex-grow site-content">
 
-			<img src="<?php echo get_stylesheet_directory_uri() ?>/header-illustration.svg" alt="">
 
 			<?php if (is_front_page()) { ?>
 				<!-- Start introduction -->

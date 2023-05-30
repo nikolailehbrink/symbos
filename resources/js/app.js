@@ -17,11 +17,11 @@ window.addEventListener("load", function () {
       el: ".swiper-pagination",
     },
   });
-  let main_navigation = document.querySelector("#primary-menu");
-  document
-    .querySelector("#primary-menu-toggle")
-    .addEventListener("click", function (e) {
-      e.preventDefault();
-      main_navigation.classList.toggle("hidden");
-    });
+  // let main_navigation = document.querySelector("#primary-menu");
+  // document
+  //   .querySelector("#primary-menu-toggle")
+  //   .addEventListener("click", function (e) {
+  //     e.preventDefault();
+  //     main_navigation.classList.toggle("hidden");
+  //   });
 });
