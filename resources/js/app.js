@@ -1,13 +1,33 @@
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination } from "swiper";
+import Swiper, { Pagination } from "swiper";
 
 // Navigation toggle
-window.addEventListener("load", function () {
+window.addEventListener("DOMContentLoaded", function () {
   const projectSlider = new Swiper(".projects", {
-    modules: [Navigation, Pagination],
+    modules: [Pagination],
+    loop: true,
 
     pagination: {
-      el: ".swiper-pagination",
+      el: ".custom-swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      600: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      // when window width is >= 480px
+      780: {
+        slidesPerView: 3,
+        spaceBetween: 32,
+      },
+      // when window width is >= 640px
+      960: {
+        slidesPerView: 4,
+        spaceBetween: 32,
+      },
     },
   });
   const logoSlider = new Swiper(".references", {
