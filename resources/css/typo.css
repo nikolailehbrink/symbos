@@ -21,3 +21,7 @@
   font-style: normal;
   font-display: swap;
 }
+
+p {
+  @apply max-w-prose;
+}
