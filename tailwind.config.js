@@ -12,10 +12,10 @@ module.exports = {
   ],
   theme: {
     container: {
+      center: true,
+
       padding: {
         DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "0rem",
       },
     },
     colors: {
@@ -67,6 +67,12 @@ module.exports = {
       ),
       fontFamily: {
         blinker: ["Blinker", ...defaultTheme.fontFamily.sans],
+      },
+      boxShadow: {
+        btn: "4px 4px 0",
+      },
+      grayscale: {
+        50: "50%",
       },
     },
     screens: {
