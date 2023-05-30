@@ -16,8 +16,8 @@
 	<div id="page" class="flex flex-col min-h-screen">
 
 
-		<header class="container sticky flex mx-auto mt-4 top-4">
-			<nav class="flex w-full p-2 border-2 rounded-full border-cod-gray-200 bg-cod-gray-500">
+		<header class="sticky z-50 flex mt-4 top-4">
+			<nav class="container flex p-2 border-2 rounded-full border-cod-gray-200 bg-cod-gray-500">
 				<div class="relative flex items-center flex-1">
 					<?php if (has_custom_logo()) { ?>
 						<?php the_custom_logo(); ?>
