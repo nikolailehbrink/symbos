@@ -193,9 +193,9 @@
     </div>
 
 </div>
-<div class="container grid gap-12 p-8 mt-40 lg:grid-cols-2 bg-cod-gray-600">
+<div class="container grid gap-12 p-8 mt-40 rounded-lg lg:grid-cols-2 bg-cod-gray-600">
 
-    <div class="sticky top-0 flex flex-col items-start self-start gap-4">
+    <div class="sticky flex flex-col items-start self-start gap-4 top-28">
         <div class="badge badge-pumpkin">Leistungen</div>
         <h2 class="text-5xl font-bold">Überschrift</h2>
         <p>Hi! Schön, dass du auf meiner Seite vorbeischaust.
