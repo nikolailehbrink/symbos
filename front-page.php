@@ -320,5 +320,33 @@
 
 </div>
 
+<div class=" bg-cerulean-500">
+
+    <div class="container swiper references">
+        <div class="items-center py-8 lg:py-16 swiper-wrapper max-h-36">
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/beziehungs-weberei-logo-white.svg" alt="">
+            </div>
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/jde-logo-white.svg" alt="">
+            </div>
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/easybeebox-logo-white.svg" alt="">
+            </div>
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/gratis-bergbahnen-logo-white.svg" alt="">
+            </div>
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/lapiazza-logo-white.svg" alt="">
+            </div>
+            <div class="flex justify-center swiper-slide">
+                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/beziehungs-weberei-logo-white.svg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+    </div>
+</div>
+
 <?php
 get_footer();

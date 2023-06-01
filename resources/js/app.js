@@ -1,5 +1,5 @@
 // core version + navigation, pagination modules:
-import Swiper, { Pagination } from "swiper";
+import Swiper, { Pagination, Autoplay } from "swiper";
 
 // Navigation toggle
 window.addEventListener("DOMContentLoaded", function () {
@@ -30,18 +30,39 @@ window.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
-  const logoSlider = new Swiper(".references", {
-    modules: [Navigation, Pagination],
 
+  /**
+   * Initializes a Swiper instance for the logo slider.
+   * @type {Swiper}
+   */
+  const logo_slider = new Swiper(".references", {
+    modules: [Pagination, Autoplay],
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    // loop: true,
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      960: {
+        slidesPerView: 4,
+      },
+      782: {
+        slidesPerView: 3,
+        spaceBetween: 36,
+      },
+      600: {
+        slidesPerView: 2,
+        spaceBetween: 18,
+      },
+      480: {
+        slidesPerView: 1,
+        spaceBetween: 18,
+      },
     },
   });
-  // let main_navigation = document.querySelector("#primary-menu");
-  // document
-  //   .querySelector("#primary-menu-toggle")
-  //   .addEventListener("click", function (e) {
-  //     e.preventDefault();
-  //     main_navigation.classList.toggle("hidden");
-  //   });
 });
