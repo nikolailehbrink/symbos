@@ -129,7 +129,7 @@
 
             <div class="flex flex-col gap-2 swiper-slide">
                 <div class="overflow-hidden rounded-lg">
-                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup-gratis-bergbahnen-webseite.webp" alt="">
+                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup/mockup-gratis-bergbahnen-webseite.webp" alt="">
 
                 </div>
                 <div>
@@ -141,7 +141,7 @@
             <div class="flex flex-col gap-2 swiper-slide">
                 <div class="overflow-hidden rounded-lg">
 
-                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src=" <?php echo get_stylesheet_directory_uri() ?>/images/mockup-sevdesk-redesign.webp" alt="">
+                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src=" <?php echo get_stylesheet_directory_uri() ?>/images/mockup/mockup-sevdesk-redesign.webp" alt="">
                 </div>
                 <div>
 
@@ -152,7 +152,7 @@
             <div class="flex flex-col gap-2 swiper-slide">
                 <div class="overflow-hidden rounded-lg">
 
-                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup-lapiazza-speisekarte.webp" alt="">
+                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup/mockup-lapiazza-speisekarte.webp" alt="">
                 </div>
                 <div>
 
@@ -161,9 +161,10 @@
                 </div>
             </div>
             <div class="flex flex-col gap-2 swiper-slide">
-                <div class="overflow-hidden rounded-lg">
+                <div class="relative overflow-hidden rounded-lg group">
+                    <div class="absolute inset-0 z-10 transition-all duration-500 opacity-50 bg-gradient-to-tr from-cerulean-500 to-cerulean-600 group-hover:opacity-0"></div>
 
-                    <img class="transition-all duration-500 hover:rotate-3 hover:scale-110 grayscale hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup-gratis-bergbahnen-webseite.webp" alt="">
+                    <img class="transition-all duration-500 group-hover:rotate-3 group-hover:scale-110 grayscale group-hover:grayscale-0" src="<?php echo get_stylesheet_directory_uri() ?>/images/mockup/mockup-gratis-bergbahnen-webseite.webp" alt="">
                 </div>
                 <div>
 
