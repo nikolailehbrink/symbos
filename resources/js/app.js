@@ -5,15 +5,14 @@ import Swiper, { Pagination, Autoplay } from "swiper";
 window.addEventListener("DOMContentLoaded", function () {
   const projectSlider = new Swiper(".projects", {
     modules: [Pagination],
-    loop: true,
 
     pagination: {
       el: ".custom-swiper-pagination",
       clickable: true,
     },
+    slidesPerView: 1,
+    spaceBetween: 16,
     breakpoints: {
-      slidesPerView: 1,
-      spaceBetween: 16,
       600: {
         slidesPerView: 2,
         spaceBetween: 24,
