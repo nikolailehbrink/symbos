@@ -382,6 +382,7 @@ function register_feedback_cpt() {
 
 add_action( 'init', 'register_feedback_cpt' );
 
+add_filter('wpcf7_autop_or_not', '__return_false');
 
 /**
  * Register widget area.

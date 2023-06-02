@@ -87,3 +87,55 @@
     }
   }
 }
+
+.wpcf7 {
+  @apply bg-cod-gray-500 rounded-lg p-8 border-2 border-cod-gray-400;
+
+  input[type="submit"] {
+    @apply justify-self-start col-span-2;
+  }
+  input:not([type="submit"]),
+  textarea {
+    @apply bg-transparent w-full px-4 py-3 leading-tight border-b-2 appearance-none rounded-t border-cod-gray-200;
+    &:focus {
+      @apply outline-none border-white bg-cod-gray-300;
+    }
+  }
+
+  .wpcf7-form {
+    @apply grid grid-cols-2 gap-4;
+    div {
+      @apply flex items-center gap-2;
+      &:nth-child(6) {
+        @apply col-span-2 items-start;
+      }
+      svg {
+        @apply shrink-0 w-9;
+      }
+    }
+  }
+
+  .wpcf7-form-control-wrap {
+    @apply w-full;
+  }
+
+  .wpcf7-not-valid {
+    @apply border-pumpkin-600;
+  }
+
+  .wpcf7-not-valid-tip {
+    @apply font-semibold text-sm text-pumpkin-600 block mb-1 mt-4;
+  }
+
+  .wpcf7-response-output {
+    @apply rounded border text-sm font-bold mt-0 my-auto relative;
+
+    &.wpcf7-validation-errors {
+      @apply border-pumpkin-600 text-pumpkin-600;
+    }
+
+    &.wpcf7-mail-sent-ok {
+      @apply text-cerulean border-cerulean;
+    }
+  }
+}
