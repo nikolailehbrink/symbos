@@ -1,23 +1,20 @@
-
 </main>
 
-<?php do_action( 'tailpress_content_end' ); ?>
+<footer id="colophon" class="py-6 site-footer bg-cod-gray-700" role="contentinfo">
 
-</div>
-
-<?php do_action( 'tailpress_content_after' ); ?>
-
-<footer id="colophon" class="site-footer bg-gray-50 py-12" role="contentinfo">
-	<?php do_action( 'tailpress_footer' ); ?>
-
-	<div class="container mx-auto text-center text-gray-500">
-		&copy; <?php echo date_i18n( 'Y' );?> - <?php echo get_bloginfo( 'name' );?>
+	<div class="container flex justify-between ">
+		<span>
+			&copy; <?php echo date_i18n('Y'); ?> - <?php echo get_bloginfo('name'); ?>
+		</span>
+		<div class="flex gap-2">
+			<a href="/datenschutz">Datenschutzerklärung</a> |
+			<a href="/impressum">Impressum</a>
+		</div>
 	</div>
 </footer>
-
-</div>
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
