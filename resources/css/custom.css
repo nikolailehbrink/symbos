@@ -118,6 +118,9 @@
   }
 }
 
+.swiper.references .swiper-pagination-bullet-active {
+  @apply bg-white;
+}
 .wpcf7 {
   @apply rounded-lg p-4 lg:p-8 border-2 border-cod-gray-400 bg-cod-gray-600 relative;
 
