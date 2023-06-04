@@ -2,6 +2,9 @@
   --swiper-pagination-bullet-inactive-color: #fff;
   --swiper-pagination-bullet-inactive-opacity: 0.5;
 }
+section[id] {
+  @apply lg:min-h-[calc(100vh_-_200px)] max-lg:py-8;
+}
 @layer components {
   .btn {
     @apply flex gap-2 justify-center items-center px-8 py-3 font-bold tracking-wide border-2 rounded-full;
