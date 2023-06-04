@@ -35,6 +35,36 @@
     @apply rounded-full;
   }
 }
+.bg-cerulean-500,
+.bg-cerulean {
+  .uim-primary {
+    @apply fill-cerulean-50;
+  }
+  .uim-secondary {
+    @apply fill-cerulean-100;
+  }
+  .uim-tertiary {
+    @apply fill-cerulean-200;
+  }
+  .uim-quaternary {
+    @apply fill-cerulean-300;
+  }
+}
+.bg-pumpkin-500,
+.bg-pumpkin {
+  .uim-primary {
+    @apply fill-pumpkin-50;
+  }
+  .uim-secondary {
+    @apply fill-pumpkin-100;
+  }
+  .uim-tertiary {
+    @apply fill-pumpkin-200;
+  }
+  .uim-quaternary {
+    @apply fill-pumpkin-300;
+  }
+}
 .uim-primary {
   @apply fill-cerulean-500;
 }
