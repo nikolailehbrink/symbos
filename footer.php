@@ -1,8 +1,8 @@
 </main>
 
-<footer id="colophon" class="py-6 site-footer bg-cod-gray-700" role="contentinfo">
+<footer id="colophon" class="py-6 site-footer bg-cod-gray-600" role="contentinfo">
 
-	<div class="container flex justify-between ">
+	<div class="container flex justify-between max-lg:flex-col">
 		<span>
 			&copy; <?php echo date_i18n('Y'); ?> - <?php echo get_bloginfo('name'); ?>
 		</span>
