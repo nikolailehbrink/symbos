@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@jeffreyvr/tailwindcss-tailpress": "^2.0.0",
+    "@tailwindcss/container-queries": "^0.1.1",
     "autoprefixer": "^10.4.14",
     "browser-sync": "^2.29.3",
     "cross-env": "^7.0.3",

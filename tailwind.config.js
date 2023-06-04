@@ -87,5 +87,6 @@ module.exports = {
   plugins: [
     tailpress.tailwind,
     require("tailwind-scrollbar"),
+    require("@tailwindcss/container-queries"),
   ],
 };
