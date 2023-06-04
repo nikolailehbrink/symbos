@@ -84,5 +84,8 @@ module.exports = {
       "2xl": "1440px",
     },
   },
-  plugins: [tailpress.tailwind],
+  plugins: [
+    tailpress.tailwind,
+    require("tailwind-scrollbar"),
+  ],
 };

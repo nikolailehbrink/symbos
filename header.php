@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> class="scroll-smooth scrollbar-thin scrollbar-thumb-cod-gray-200 hover:scrollbar-thumb-cod-gray-100 active:scrollbar-thumb-cerulean-500 scrollbar-track-cod-gray-500">
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
