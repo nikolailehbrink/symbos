@@ -24,6 +24,10 @@
   }
 }
 
+a:not(.btn) {
+  @apply hover:text-pumpkin-500;
+}
+
 @layer components {
   .badge {
     @apply inline-flex gap-2 items-center justify-center px-8 py-3 font-bold tracking-wide rounded-full;
