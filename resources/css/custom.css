@@ -17,6 +17,13 @@
   }
 }
 
+.grid-of-expertise {
+  @apply bg-gradient-to-tr from-cod-gray-500 to-cod-gray-600;
+  svg {
+    @apply p-2 h-14 rounded bg-cod-gray-400 fill-white;
+  }
+}
+
 @layer components {
   .badge {
     @apply inline-flex gap-2 items-center justify-center px-8 py-3 font-bold tracking-wide rounded-full;
