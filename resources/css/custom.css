@@ -119,10 +119,10 @@
 }
 
 .wpcf7 {
-  @apply bg-cod-gray-500 rounded-lg p-8 border-2 border-cod-gray-400;
+  @apply rounded-lg p-4 lg:p-8 border-2 border-cod-gray-400 bg-cod-gray-600 relative;
 
   input[type="submit"] {
-    @apply justify-self-start col-span-2;
+    @apply justify-self-start cursor-pointer;
   }
   input:not([type="submit"]),
   textarea {
@@ -150,22 +150,32 @@
   }
 
   .wpcf7-not-valid {
-    @apply border-pumpkin-600;
+    @apply border-pumpkin-500;
   }
 
   .wpcf7-not-valid-tip {
-    @apply font-semibold text-sm text-pumpkin-600 block mb-1 mt-4;
+    @apply font-semibold text-sm text-pumpkin-500 block mt-4;
+  }
+
+  .wpcf7-spinner {
+    @apply !m-0 bg-cerulean opacity-100 self-center justify-self-end;
   }
 
   .wpcf7-response-output {
-    @apply rounded border text-sm font-bold mt-0 my-auto relative;
+    @apply rounded-full border !border-cod-gray-300 justify-self-start !px-4 !py-3 text-sm font-bold !m-0 my-auto bg-cod-gray-500 !col-span-2;
 
     &.wpcf7-validation-errors {
-      @apply border-pumpkin-600 text-pumpkin-600;
+      @apply !border-pumpkin-500 !text-pumpkin-500;
     }
 
     &.wpcf7-mail-sent-ok {
-      @apply text-cerulean border-cerulean;
+      @apply !text-cerulean !border-cerulean;
     }
+  }
+  .invalid .wpcf7-response-output {
+    @apply text-pumpkin;
+  }
+  .sent .wpcf7-response-output {
+    @apply text-cerulean;
   }
 }
