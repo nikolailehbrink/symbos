@@ -26,7 +26,15 @@
 		</a>
 	</nav>
 
-	<header class="container sticky z-50 flex mt-4 top-4">
+	<header class="container sticky z-50 flex mt-4 max-lg:justify-start top-4">
+		<nav>
+			<button class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300 group">
+				<span class="w-1/2 group-hover:translate-x-[5px] h-[3px] my-[3px] group-hover:rotate-45 group-hover:origin-top-left group-hover:w-full transition-all bg-white rounded"></span>
+				<span class="w-full h-[3px] my-[3px] group-hover:-rotate-45 group-hover:translate-y-[1px] transition-all bg-white rounded"></span>
+				<span class="w-3/4 h-[3px] my-[3px] group-hover:opacity-0 group-hover:w-0 group-hover:-rotate-45 transition-all bg-white rounded"></span>
+			</button>
+
+		</nav>
 		<nav class="hidden w-full p-2 border-2 rounded-full lg:flex border-cod-gray-200 bg-cod-gray-500">
 			<div class="relative flex flex-1">
 				<?php if (has_custom_logo()) { ?>
