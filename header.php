@@ -77,7 +77,7 @@
 					<a href="#contact"> <?php _e('Contact', 'symbos') ?></a>
 				</li>
 			</ul>
-			<div class="flex justify-end flex-1">
+			<div class="justify-end flex-1 hidden lg:flex">
 
 				<a class="btn btn-cerulean" href="tel:+491794393782">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

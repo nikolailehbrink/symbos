@@ -14,7 +14,8 @@
                         <path class="uim-primary" d="M21 10H3A1 1 0 0 1 2 9V6A3.00328 3.00328 0 0 1 5 3H19a3.00328 3.00328 0 0 1 3 3V9A1 1 0 0 1 21 10zM14 14H10a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2z"></path>
                         <path class="uim-tertiary" d="M4,10v8a3.00328,3.00328,0,0,0,3,3H17a3.00328,3.00328,0,0,0,3-3V10Zm10,4H10a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Z"></path>
                     </svg>
-                    Projects</a>
+                    Projects
+                </a>
                 <a href="#contact" class="btn btn-pumpkin btn-shadow">
                     <svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path class="uim-tertiary" d="M12 21H4a1 1 0 0 1-.707-1.707l1.675-1.675A9 9 0 1 1 12 21Z"></path>
@@ -182,7 +183,7 @@
 
 </section>
 
-<section id="experience" class="flex items-center bg-cod-gray-600 scroll-mt-[6.75rem]">
+<section id="experience" class="flex items-center bg-cod-gray-600">
     <div class="container grid gap-6 rounded-lg lg:gap-12 lg:py-24 lg:grid-cols-2 ">
 
         <div class="flex flex-col items-start self-start gap-4 lg:sticky lg:top-28">
