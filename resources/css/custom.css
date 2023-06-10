@@ -23,20 +23,13 @@ section[id] {
 .grid-of-expertise {
   @apply flex gap-2 flex-col border-2 border-cod-gray-300 rounded-lg p-2;
   svg {
-    @apply p-2 h-14 border-2 rounded bg-gradient-to-tr from-cod-gray-500 to-cod-gray-400 border-cod-gray-300;
-    path {
-      @apply fill-white;
-    }
+    @apply fill-white p-2 h-14 border-2 rounded bg-gradient-to-tr from-cod-gray-500 to-cod-gray-400 border-cod-gray-300;
   }
   svg:nth-child(3n + 1) {
-    path {
-      @apply fill-cerulean;
-    }
+    @apply fill-cerulean;
   }
   svg:nth-child(3n + 2) {
-    path {
-      @apply fill-pumpkin;
-    }
+    @apply fill-pumpkin;
   }
 }
 
