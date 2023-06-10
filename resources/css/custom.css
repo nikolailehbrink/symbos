@@ -50,9 +50,8 @@ a:not(.btn) {
 }
 
 .custom-logo-link {
-  @apply h-14 w-14;
   img {
-    @apply rounded-full;
+    @apply rounded-full h-14 w-14;
   }
 }
 .bg-cerulean-500,
