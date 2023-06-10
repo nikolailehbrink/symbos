@@ -7,6 +7,39 @@ gsap.registerPlugin(ScrollTrigger);
 
 // Navigation toggle
 window.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector("#menu-toggle");
+  const mainMenu = document.querySelector("#main-menu");
+  const menuLabel = document.querySelector('label[for="menu-toggle"]');
+
+  // Definieren Sie die Event-Listener-Funktion
+  const handleMenuChange = () => {
+    mainMenu.classList.toggle("max-lg:translate-x-[calc(100%_+_1rem)]");
+
+    // Füge den Click-Listener hinzu, wenn das Menü geöffnet ist und entferne ihn, wenn es geschlossen ist
+    if (menuToggle.checked) {
+      document.body.addEventListener("click", handleBodyClick);
+    } else {
+      document.body.removeEventListener("click", handleBodyClick);
+    }
+  };
+
+  // Definieren Sie die Click-Listener-Funktion
+  const handleBodyClick = (event) => {
+    const isClickInsideMenu = mainMenu.contains(event.target);
+    const isClickOnLabel = menuLabel.contains(event.target);
+
+    if (!isClickInsideMenu && !isClickOnLabel) {
+      menuToggle.checked = false;
+      mainMenu.classList.toggle("max-lg:translate-x-[calc(100%_+_1rem)]");
+
+      // Entferne den Click-Listener, wenn wir außerhalb des Menüs klicken
+      document.body.removeEventListener("click", handleBodyClick);
+    }
+  };
+
+  // Füge den Change-Listener hinzu
+  menuToggle.addEventListener("change", handleMenuChange);
+
   gsap.defaults({
     duration: 1,
   });

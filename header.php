@@ -27,15 +27,16 @@
 	</nav>
 
 	<header class="container sticky z-50 flex mt-4 max-lg:justify-start top-4">
-		<nav>
-			<button class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300 group">
-				<span class="w-1/2 group-hover:translate-x-[5px] h-[3px] my-[3px] group-hover:rotate-45 group-hover:origin-top-left group-hover:w-full transition-all bg-white rounded"></span>
-				<span class="w-full h-[3px] my-[3px] group-hover:-rotate-45 group-hover:translate-y-[1px] transition-all bg-white rounded"></span>
-				<span class="w-3/4 h-[3px] my-[3px] group-hover:opacity-0 group-hover:w-0 group-hover:-rotate-45 transition-all bg-white rounded"></span>
-			</button>
+		<label for="menu-toggle" class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300">
+			<input class="hidden peer" type="checkbox" id="menu-toggle">
+			<span class="w-1/2 peer-checked:translate-x-[5px] h-[3px] my-[3px] peer-checked:rotate-45 peer-checked:origin-top-left peer-checked:w-full transition-all bg-white rounded"></span>
+			<span class="w-full h-[3px] my-[3px] peer-checked:-rotate-45 peer-checked:translate-y-[1px] transition-all bg-white rounded"></span>
+			<span class="w-3/4 h-[3px] my-[3px] peer-checked:opacity-0 peer-checked:w-0 peer-checked:-rotate-45 transition-all bg-white rounded"></span>
+		</label>
+		<!-- <button class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300 group">
+			</button> -->
 
-		</nav>
-		<nav class="hidden w-full p-2 border-2 rounded-full lg:flex border-cod-gray-200 bg-cod-gray-500">
+		<nav id="main-menu" class="flex p-2 border-2 rounded-lg max-lg:translate-x-[calc(100%_+_1rem)] max-lg:transition-transform max-lg:mr-4 max-lg:right-0 max-lg:top-20 max-lg:fixed max-lg:p-8 lg:rounded-full lg:w-full max-lg:flex-col max-lg:items-center max-lg:gap-6 border-cod-gray-200 bg-cod-gray-500">
 			<div class="relative flex flex-1">
 				<?php if (has_custom_logo()) { ?>
 					<?php the_custom_logo(); ?>
@@ -45,7 +46,7 @@
 					</a>
 				<?php } ?>
 			</div>
-			<ul class="flex items-center justify-center flex-1 gap-4 font-bold tracking-wide">
+			<ul class="flex justify-center flex-1 gap-4 font-bold tracking-wide lg:items-center max-lg:flex-col">
 				<li class="flex items-center gap-2">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path class="uim-primary" d="M17.73657 14.62189l-2.426 2.23065a11.60327 11.60327 0 0 1-4.29847 2.36987l.64368 3.00318a1.0003 1.0003 0 0 0 1.46924.66162l3.90527-2.20264a3.03526 3.03526 0 0 0 1.375-3.30371zM7.26562 8.77588L9.35431 6.296l-2.6048-.62848A2.77711 2.77711 0 0 0 3.36279 7.0249L1.1626 10.9248A.99989.99989 0 0 0 1.82422 12.394l3.07275.65869A12.88652 12.88652 0 0 1 7.26562 8.77588zM16.73373 8.81626a1.5 1.5 0 1 0-1.5-1.5A1.50055 1.50055 0 0 0 16.73373 8.81626z"></path>
