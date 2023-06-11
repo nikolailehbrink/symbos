@@ -2,6 +2,7 @@
 import Swiper, { Pagination, Autoplay } from "swiper";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import imageComparisonSlider from "img-comparison-slider";
 
 gsap.registerPlugin(ScrollTrigger);
 

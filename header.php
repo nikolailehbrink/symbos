@@ -26,13 +26,19 @@
 		</a>
 	</nav>
 
+	<img-comparison-slider class="container">
+		<img class="object-cover w-full aspect-video" slot="first" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-gratis-bergbahnen-webseite.webp" />
+		<img class="object-cover w-full aspect-video" slot="second" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-lapiazza-speisekarte.webp" />
+	</img-comparison-slider>
 	<header class="container sticky z-50 flex mt-4 max-lg:justify-start top-4">
+
 		<label for="menu-toggle" class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300">
 			<input class="hidden peer" type="checkbox" id="menu-toggle">
 			<span class="w-1/2 peer-checked:translate-x-[5px] h-[3px] my-[3px] peer-checked:rotate-45 peer-checked:origin-top-left peer-checked:w-full transition-all bg-white rounded"></span>
 			<span class="w-full h-[3px] my-[3px] peer-checked:-rotate-45 peer-checked:translate-y-[1px] transition-all bg-white rounded"></span>
 			<span class="w-3/4 h-[3px] my-[3px] peer-checked:opacity-0 peer-checked:w-0 peer-checked:-rotate-45 transition-all bg-white rounded"></span>
 		</label>
+
 		<!-- <button class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300 group">
 			</button> -->
 
