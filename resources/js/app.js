@@ -142,7 +142,6 @@ window.addEventListener("DOMContentLoaded", function () {
   };
   document.querySelectorAll("#work-places li").forEach((listElement) => {
     const logo = listElement.querySelector(".sticky");
-    console.log(listElement);
     gsap.to(logo, {
       outline: "2px solid white",
       duration: 0.1,
