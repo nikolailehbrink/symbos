@@ -1,5 +1,7 @@
 // core version + navigation, pagination modules:
-import Swiper, { Pagination, Autoplay } from "swiper";
+import Swiper from "swiper";
+import { Pagination, Autoplay } from "swiper/modules";
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
