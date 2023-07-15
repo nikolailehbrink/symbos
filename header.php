@@ -3,14 +3,14 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-cod-gray-500 text-white antialiased font-blinker flex flex-col'); ?>>
+<body <?php body_class('bg-cod-gray-500 text-white antialiased font-blinker flex flex-col overflow-x-hidden'); ?>>
 
 	<nav class="fixed z-50 flex flex-col gap-2 lg:bottom-4 max-lg:right-2 bottom-2 lg:left-4 text-cod-gray-500 ">
 
@@ -33,8 +33,6 @@
 			<span class="w-full h-[3px] my-[3px] peer-checked:-rotate-45 peer-checked:translate-y-[1px] transition-all bg-white rounded"></span>
 			<span class="w-3/4 h-[3px] my-[3px] peer-checked:opacity-0 peer-checked:w-0 peer-checked:-rotate-45 transition-all bg-white rounded"></span>
 		</label>
-		<!-- <button class="fixed flex flex-col w-12 h-12 p-2 border-2 rounded cursor-pointer right-4 lg:hidden bg-cod-gray-400 border-cod-gray-300 group">
-			</button> -->
 
 		<nav id="main-menu" class="flex p-2 border-2 rounded-lg max-lg:translate-x-[calc(100%_+_1rem)] max-lg:transition-transform max-lg:mr-4 max-lg:right-0 max-lg:top-20 max-lg:fixed max-lg:p-8 lg:rounded-full lg:w-full max-lg:flex-col max-lg:items-center max-lg:gap-6 border-cod-gray-200 bg-cod-gray-500">
 			<div class="relative flex flex-1">
