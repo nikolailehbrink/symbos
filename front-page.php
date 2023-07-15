@@ -27,7 +27,8 @@
         </div>
         <div class="relative">
             <div id="gradient-blur" class="absolute rounded-full opacity-50 -inset-16 blur-3xl -z-10 bg-gradient-to-tl from-cerulean-500 to-pumpkin-500 via-cerulean-200 via-35%"></div>
-            <img src="<?php echo get_template_directory_uri() ?>/header-illustration.svg" alt="">
+            <?php get_template_part('images/header', 'illustration.svg'); ?>
+
         </div>
     </div>
 </section>
