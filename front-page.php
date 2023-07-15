@@ -478,9 +478,6 @@
                 <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/jde-logo-white.svg" alt="">
             </div>
             <div class="flex justify-center swiper-slide">
-                <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/easybeebox-logo-white.svg" alt="">
-            </div>
-            <div class="flex justify-center swiper-slide">
                 <img class="object-cover transition-transform hover:scale-110" src="<? echo get_template_directory_uri() ?>/images/logos/gratis-bergbahnen-logo-white.svg" alt="">
             </div>
             <div class="flex justify-center swiper-slide">
