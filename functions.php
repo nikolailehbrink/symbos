@@ -88,7 +88,7 @@ function symbos_enqueue_scripts()
 
 	wp_enqueue_style('symbos', symbos_asset('css/app.css'), array(), $theme->get('Version'));
 
-	wp_enqueue_script('symbos', symbos_asset('js/app.js'), array(), $theme->get('Version'));
+	wp_enqueue_script('symbos', symbos_asset('js/app.js'), array(), $theme->get('Version'), true);
 }
 
 add_action('wp_enqueue_scripts', 'symbos_enqueue_scripts');
