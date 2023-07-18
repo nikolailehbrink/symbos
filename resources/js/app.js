@@ -1,4 +1,3 @@
-// core version + navigation, pagination modules:
 import Swiper from "swiper";
 import { Pagination, Autoplay } from "swiper/modules";
 
@@ -86,7 +85,6 @@ mm.add("(min-width: 960px)", () => {
         start: "top 80%",
         end: "top 20%",
         scrub: 3,
-        //   markers: true,
         toggleActions: "play none none reverse",
       },
     });
@@ -102,7 +100,6 @@ gsap.from("#gradient-blur", {
     start: "top top",
     scrub: 2,
     trigger: "section",
-    //   markers: true,
   },
 });
 
@@ -115,10 +112,10 @@ gsap.from(".service-box", {
     end: "bottom 75%",
     scrub: 2,
     trigger: "#services .container .grid",
-    //   markers: true,
     toggleActions: "restart none none none",
   },
 });
+
 gsap.from("#projects .swiper-slide", {
   autoAlpha: 0,
   stagger: 0.5,
@@ -131,6 +128,7 @@ gsap.from("#projects .swiper-slide", {
     toggleActions: "restart none restart none",
   },
 });
+
 gsap.from(".grid-of-expertise svg", {
   fill: "#FFFFFF",
   fillOpacity: 0.3,
@@ -142,7 +140,6 @@ gsap.from(".grid-of-expertise svg", {
     trigger: "#grids-of-expertise",
     end: "bottom 15%",
     start: "top 85%",
-    //   markers: true,
     toggleActions: "restart none restart none",
   },
 });
@@ -160,7 +157,6 @@ document.querySelectorAll("#work-places li").forEach((listElement) => {
       start: "top " + getTopValue(logo),
       end: "bottom " + getTopValue(logo),
       trigger: listElement,
-      // markers: true,
       toggleActions: "play reverse restart reverse",
     },
   });
