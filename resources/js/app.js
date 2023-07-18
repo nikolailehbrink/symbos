@@ -45,7 +45,28 @@ gsap.defaults({
   duration: 1,
 });
 
-// create
+const sections = document.querySelectorAll("section");
+let headerIllustration = document.querySelector("#header-illustration");
+let bubbles = headerIllustration.querySelectorAll(".bubble");
+
+gsap.from(headerIllustration, {
+  x: -100,
+  scale: 1.4,
+  autoAlpha: 0,
+  duration: 1.5,
+});
+
+gsap.from(bubbles, {
+  scale: 0.6,
+  y: 100,
+  rotate: -25,
+  scrollTrigger: {
+    trigger: headerIllustration,
+    scrub: 1,
+  },
+  stagger: 0.1,
+});
+
 let mm = gsap.matchMedia();
 
 // add a media query. When it matches, the associated function will run
@@ -85,16 +106,6 @@ gsap.from("#gradient-blur", {
   },
 });
 
-gsap.from("#header img", {
-  scale: 1.1,
-  scrollTrigger: {
-    start: "top top",
-    end: "+=50%",
-    scrub: true,
-    trigger: "#header",
-    //   markers: true,
-  },
-});
 gsap.from(".service-box", {
   autoAlpha: 0,
   stagger: 0.5,
