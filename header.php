@@ -67,7 +67,7 @@
 					</svg>
 					<a href="#experience"><?php _e('Experience', 'symbos') ?></a>
 				</li>
-				<li class="flex items-center gap-2">
+				<li class="flex items-center gap-2 lg:hidden">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path class="uim-tertiary" d="M12 21H4a1 1 0 0 1-.707-1.707l1.675-1.675A9 9 0 1 1 12 21Z"></path>
 						<path class="uim-primary" d="M15.92 10.76a.997.997 0 0 1-.707-.293l-1.92-1.92a1 1 0 0 1 1.414-1.414l1.213 1.213 3.373-3.373a1 1 0 0 1 1.414 1.414l-4.08 4.08a.997.997 0 0 1-.707.293Z"></path>
@@ -77,63 +77,16 @@
 			</ul>
 			<div class="justify-end flex-1 hidden lg:flex">
 
-				<a class="btn btn-cerulean" href="tel:+491794393782">
+				<a class="btn btn-cerulean" href="#contact">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-						<path class="uim-secondary" d="M20.942 11.643a.882.882 0 0 1-.087-.004 1 1 0 0 1-.91-1.082c.015-.175.023-.35.023-.525a6.007 6.007 0 0 0-6-6c-.175 0-.35.008-.525.023a1 1 0 0 1-.172-1.992c.232-.021.465-.03.697-.03a8.01 8.01 0 0 1 8 8c0 .23-.01.464-.03.696a1 1 0 0 1-.996.914Z"></path>
-						<path class="uim-primary" d="M16.968 11.032a1 1 0 0 1-1-1 2.003 2.003 0 0 0-2-2 1 1 0 0 1 0-2 4.004 4.004 0 0 1 4 4 1 1 0 0 1-1 1Z"></path>
-						<path class="uim-tertiary" d="M18.882 21.968a3.05 3.05 0 0 1-.388-.025A19.098 19.098 0 0 1 7.47 16.531 19.098 19.098 0 0 1 2.057 5.506a3.04 3.04 0 0 1 .73-2.394 2.995 2.995 0 0 1 2.247-1.015h3.027a2.981 2.981 0 0 1 2.955 2.49q.05.338.125.674a10.165 10.165 0 0 0 .387 1.314 1.992 1.992 0 0 1-1.039 2.48l-.456.214a12.5 12.5 0 0 0 4.698 4.698l.214-.458a1.99 1.99 0 0 1 2.482-1.036 10.165 10.165 0 0 0 1.313.386q.334.075.673.125a2.981 2.981 0 0 1 2.49 2.955v3.027a2.995 2.995 0 0 1-1.015 2.247 3.035 3.035 0 0 1-2.006.755Z"></path>
+						<path class="uim-tertiary" d="M12 21H4a1 1 0 0 1-.707-1.707l1.675-1.675A9 9 0 1 1 12 21Z"></path>
+						<path class="uim-primary" d="M15.92 10.76a.997.997 0 0 1-.707-.293l-1.92-1.92a1 1 0 0 1 1.414-1.414l1.213 1.213 3.373-3.373a1 1 0 0 1 1.414 1.414l-4.08 4.08a.997.997 0 0 1-.707.293Z"></path>
 					</svg>
-					<?php _e('Call', 'symbos') ?>
+					<?php _e('Contact', 'symbos') ?>
 				</a>
 			</div>
 		</nav>
 
-
-		<!-- <div class="container mx-auto">
-				<div class="py-6 border-b lg:flex lg:justify-between lg:items-center">
-					<div class="flex items-center justify-between">
-						<div>
-							<?php if (has_custom_logo()) { ?>
-								<?php the_custom_logo(); ?>
-							<?php } else { ?>
-								<a href="<?php echo get_bloginfo('url'); ?>" class="text-lg font-extrabold uppercase">
-									<?php echo get_bloginfo('name'); ?>
-								</a>
-
-								<p class="text-sm font-light text-gray-600">
-									<?php echo get_bloginfo('description'); ?>
-								</p>
-
-							<?php } ?>
-						</div>
-
-						<div class="lg:hidden">
-							<a href="#" aria-label="Toggle navigation" id="primary-menu-toggle">
-								<svg viewBox="0 0 20 20" class="inline-block w-6 h-6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-									<g stroke="none" stroke-width="1" fill="currentColor" fill-rule="evenodd">
-										<g id="icon-shape">
-											<path d="M0,3 L20,3 L20,5 L0,5 L0,3 Z M0,9 L20,9 L20,11 L0,11 L0,9 Z M0,15 L20,15 L20,17 L0,17 L0,15 Z" id="Combined-Shape"></path>
-										</g>
-									</g>
-								</svg>
-							</a>
-						</div>
-					</div>
-
-					<?php
-					wp_nav_menu(
-						array(
-							'container_id'    => 'primary-menu',
-							'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-							'menu_class'      => 'lg:flex lg:-mx-4',
-							'theme_location'  => 'primary',
-							'li_class'        => 'lg:mx-4',
-							'fallback_cb'     => false,
-						)
-					);
-					?>
-				</div>
-			</div> -->
 	</header>
 
 	<main>
