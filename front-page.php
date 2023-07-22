@@ -4,10 +4,9 @@
         <div class="space-y-4">
             <h1 class="text-6xl font-bold">Nikolai<br />Lehbrink</h1>
             <p>
-                Hey da! Willkommen im virtuellen Spielplatz eines Webentwicklers und UI/UX-Designers. Mein Ding? Das Basteln von maßgeschneiderten, knackigen und optisch ansprechenden digitalen Meisterwerken.
-                Ich hab alles am Start, was du für dein Online-Auftreten brauchst - von easy-to-use Websites und Online-Shops bis hin zu kreativen Print-Designs. Dabei steht dein Ziel immer im Vordergrund.
-                Lass uns zusammen die digitale Bühne deiner Marke rocken. Ready? Los geht's!
+                Herzlich willkommen auf meiner Portfolio-Webseite! Ich bin ein 26-jähriger Webentwickler aus Bremen, Deutschland, der seine Leidenschaft während des Studiums entdeckt hat. Seitdem gestalte und entwickle ich Webseiten und freue mich, dir hier einige meiner Projekte vorzustellen.
             </p>
+            <p> Ich bin stets offen für neue Herausforderungen und Möglichkeiten zur Zusammenarbeit. Suchst du Kreativität, Zuverlässigkeit und Engagement, bist du hier genau richtig. Zögere nicht, mich zu kontaktieren - ich freue mich auf deine Nachricht!</p>
             <div class="flex gap-4">
                 <a href="#projects" class="btn btn-cerulean btn-shadow">
                     <svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
