@@ -503,11 +503,13 @@
                 Kontakt
             </div>
             <h2 class="text-5xl font-bold">Lets get in touch!</h2>
-            <p>
-                Hi! Schön, dass du auf meiner Seite vorbeischaust.
-                Ich bin Webentwickler und leidenschaftlicher UI/UX-Designer aus Bremen, Deutschland.
-                Neben Projekten wie dieser Website, erstelle ich in engem Kundenkontakt Webseiten und Online-Shops - gestalte aber auch Print-Produkte wie Visiten- oder Speisekarten.
-            </p>
+            <div class="">
+                <img id="profile-image" class="float-left w-16 h-16 mr-4 border-2 rounded-full shape-circle lg:w-28 lg:h-28 border-pumpkin" src="https://avatars.githubusercontent.com/u/38915700?v=3" alt="GitHub-Profilbild von Nikolai Lehbrink">
+                <p class="italic ">„Hi! Schön, dass du auf meiner Seite vorbeischaust.
+                    Ich bin Webentwickler und leidenschaftlicher UI/UX-Designer aus Bremen, Deutschland.
+                    Neben Projekten wie dieser Website, erstelle ich in engem Kundenkontakt Webseiten und Online-Shops - gestalte aber auch Print-Produkte wie Visiten- oder Speisekarten.“
+                </p>
+            </div>
             <div class="space-y-2">
                 <h2 class="text-xl font-bold">Phone</h2>
                 <div class="flex items-center justify-center gap-2">
