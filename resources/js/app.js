@@ -6,6 +6,18 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
+//Import profile image
+const profileImage = document.querySelector("#profile-image");
+
+const getAvatarUrl = async () => {
+  const response = await fetch("https://api.github.com/users/nikolailehbrink");
+  const data = await response.json();
+
+  profileImage.src = data.avatar_url;
+};
+
+getAvatarUrl();
+
 // Navigation toggle
 const menuToggle = document.querySelector("#menu-toggle");
 const mainMenu = document.querySelector("#main-menu");
