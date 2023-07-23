@@ -187,12 +187,6 @@ const projectSlider = new Swiper(".projects", {
       slidesPerView: 2,
       spaceBetween: 24,
     },
-    // when window width is >= 480px
-    960: {
-      slidesPerView: 3,
-      spaceBetween: 32,
-    },
-    // when window width is >= 640px
     1280: {
       slidesPerView: 4,
       spaceBetween: 32,
