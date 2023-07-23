@@ -61,8 +61,7 @@ let headerIllustration = document.querySelector("#header-illustration");
 let bubbles = headerIllustration.querySelectorAll(".bubble");
 
 gsap.from(headerIllustration, {
-  x: -100,
-  scale: 1.4,
+  scale: 0.8,
   autoAlpha: 0,
   duration: 1.5,
 });
