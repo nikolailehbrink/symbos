@@ -51,4 +51,3 @@ jobs:
             postcss.config.js
             resources
             safelist.txt
-          dry-run: true
