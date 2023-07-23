@@ -10,7 +10,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('bg-cod-gray-500 text-white antialiased font-blinker flex flex-col overflow-x-hidden'); ?>>
+<body <?php body_class('bg-cod-gray-500 text-white antialiased font-blinker flex flex-col overflow-x-hidden min-h-screen'); ?>>
 
 	<nav class="fixed z-50 flex flex-col gap-2 lg:bottom-4 max-lg:right-2 bottom-2 lg:left-4 text-cod-gray-500 ">
 
@@ -89,4 +89,4 @@
 
 	</header>
 
-	<main>
+	<main class="grow">
