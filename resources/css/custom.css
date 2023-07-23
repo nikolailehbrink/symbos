@@ -3,7 +3,7 @@
   --swiper-pagination-bullet-inactive-opacity: 0.5;
 }
 section[id] {
-  @apply lg:min-h-[calc(100vh_-_200px)] max-lg:py-8 first:pt-0;
+  @apply lg:min-h-[calc(100vh_-_200px)] py-12 first:pt-0;
 }
 
 .shape-circle {
