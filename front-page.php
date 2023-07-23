@@ -108,7 +108,7 @@
 
                     </div>
                     <div>
-                        <h2 class="text-xl font-bold">beziehungs-weberei.de</h2>
+                        <h2 class="text-xl font-bold"><a href="http://beziehungs-weberei.de" target="_blank" rel="noopener noreferrer">beziehungs-weberei.de</a></h2>
                         <p class=" line-clamp-2">Klare, moderne Wordpress-Seite für einen Coach und Resilienztrainer.</p>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-physiomed-bremen-webseite.webp" alt="">
                     </div>
                     <div>
-                        <h2 class="text-xl font-bold">physiomed-bremen.de</h2>
+                        <h2 class="text-xl font-bold"><a href="http://physiomed-bremen.de" target="_blank" rel="noopener noreferrer">physiomed-bremen.de</a></h2>
                         <p class=" line-clamp-2">Moderne, minimalistische Webseite mit Staff-Fotoshooting für Physiotherapiepraxis.</p>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-gratis-bergbahnen-webseite.webp" alt="">
                     </div>
                     <div>
-                        <h2 class="text-xl font-bold">gratis-bergbahnen.net</h2>
+                        <h2 class="text-xl font-bold"><a href="http://gratis-bergbahnen.net" target="_blank" rel="noopener noreferrer">gratis-bergbahnen.net</a></h2>
                         <p class=" line-clamp-2">Interaktive Webseite mit kostenlosem Seilbahn-Angebot, inklusive Logodesign.</p>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src=" <?php echo get_template_directory_uri() ?>/images/mockup/mockup-sevdesk-redesign.webp" alt="">
                     </div>
                     <div>
-                        <h2 class="text-xl font-bold">sevDesk UI Redesign</h2>
+                        <h2 class="text-xl font-bold"><a href="http://https://sevdesk.de/" target="_blank" rel="noopener noreferrer">sevDesk UI Redesign</a></h2>
                         <p class=" line-clamp-2">Redesign der sevDesk-Web-Oberfläche, mit modernisierten Icons und Nutzerführung.</p>
                     </div>
                 </div>
@@ -333,7 +333,7 @@
 
                     <hgroup>
                         <h2 class="text-2xl font-bold">Webentwickler & UI/UX-Designer</h2>
-                        <p class="text-xl">moskito GmbH & Co. KG</p>
+                        <a href="https://moskito.de" target="_blank" class="text-xl">moskito GmbH & Co. KG</a>
                     </hgroup>
                     <p>Als Webentwickler bei der Mosktio GmbH & Co. KG liegt mein Schwerpunkt auf der Entwicklung von eigenen WordPress-Themes für Kunden oder der eigenen Unternehmens-Website. Aber auch die Umsetzung von One-Pager-Webseiten gehören zu meinem Alltag. Zudem bin ich stets bestrebt, neue Technologien in meine Arbeit zu integrieren, um innovative und effektive Lösungen für die Webpräsenzen von Unternehmen zu schaffen.</p>
                 </div>
@@ -350,7 +350,7 @@
 
                     <hgroup>
                         <h2 class="text-2xl font-bold">Selbstständiger Webentwickler</h2>
-                        <p class="text-xl">Nikolai Lehbrink - Conception, Design and Development</p>
+                        <a href="https://nikolailehbr.ink" target="_blank" class="text-xl">Nikolai Lehbrink - Conception, Design and Development</a>
                     </hgroup>
                     <p>Als selbstständiger Webentwickler liegt mein Hauptaugenmerk auf der Gestaltung und dem Redesign von Webseiten. Ich helfe Einzelpersonen und Unternehmen dabei, ihre Online-Präsenz durch benutzerfreundliche und ansprechende Websites zu verbessern und zu erweitern. Die Anforderungen meiner Kunden setze ich mit Liebe zum Detail und technischer Präzision um.</p>
                 </div>
@@ -374,7 +374,7 @@
 
                     <hgroup>
                         <h2 class="text-2xl font-bold">Wordpress-Entwickler</h2>
-                        <p class="text-xl">Jung&Billig GmbH</p>
+                        <a href="https://www.jungundbillig.de/" target="_blank" class="text-xl">Jung&Billig GmbH</a>
                     </hgroup>
                     <p>Bei Jung & Billig GmbH war ich als Webentwickler tätig. Mein Fokus lag auf der Erstellung und Umsetzung von Webseiten und Online-Shops mit WordPress und WooCommerce. Auch ein großes Shopware-Projekt zählte zu meinen Aufgaben.</p>
                     <p>Zusätzlich betrieb ich regelmäßige Prozessoptimierung, dazu zählten die Einführung eines Firmenwikis und die Verbesserung der Server-Ordnerstruktur.</p>
@@ -392,7 +392,7 @@
 
                     <hgroup>
                         <h2 class="text-2xl font-bold">Internationaler Studiengang Medieninformatik B. Sc.</h2>
-                        <p class="text-xl">Hochschule Bremen</p>
+                        <a href="https://www.hs-bremen.de/" target="_blank" class="text-xl">Hochschule Bremen</a>
                     </hgroup>
                     <blockquote cite="https://www.hs-bremen.de/studieren/studiengang/internationaler-studiengang-medieninformatik-b-sc">
                         <p>
