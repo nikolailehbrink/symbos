@@ -205,3 +205,9 @@ a:not(.btn) {
     @apply text-cerulean;
   }
 }
+
+.references {
+  img {
+    @apply max-h-20;
+  }
+}

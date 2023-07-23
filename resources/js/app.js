@@ -212,15 +212,11 @@ const logo_slider = new Swiper(".references", {
     disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
-  // loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
-    960: {
-      slidesPerView: 4,
-    },
     782: {
       slidesPerView: 3,
       spaceBetween: 36,
