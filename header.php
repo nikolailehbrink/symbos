@@ -50,14 +50,14 @@
 						<path class="uim-primary" d="M17.73657 14.62189l-2.426 2.23065a11.60327 11.60327 0 0 1-4.29847 2.36987l.64368 3.00318a1.0003 1.0003 0 0 0 1.46924.66162l3.90527-2.20264a3.03526 3.03526 0 0 0 1.375-3.30371zM7.26562 8.77588L9.35431 6.296l-2.6048-.62848A2.77711 2.77711 0 0 0 3.36279 7.0249L1.1626 10.9248A.99989.99989 0 0 0 1.82422 12.394l3.07275.65869A12.88652 12.88652 0 0 1 7.26562 8.77588zM16.73373 8.81626a1.5 1.5 0 1 0-1.5-1.5A1.50055 1.50055 0 0 0 16.73373 8.81626z"></path>
 						<path class="uim-tertiary" d="M22.60107,2.062a1.00088,1.00088,0,0,0-.71289-.71289A11.24875,11.24875,0,0,0,10.46924,4.97217L7.26562,8.77588A12.93634,12.93634,0,0,0,4.3418,15.48682a1.00031,1.00031,0,0,0,.28466.83642l3.1001,3.1001a.99941.99941,0,0,0,.707.293c.02881,0,.05762-.00147.08692-.00391a11.84707,11.84707,0,0,0,6.79-2.85986l3.66308-3.36816A11.20387,11.20387,0,0,0,22.60107,2.062ZM16.7337,8.81622a1.5,1.5,0,1,1,1.5-1.5A1.50054,1.50054,0,0,1,16.7337,8.81622Z"></path>
 					</svg>
-					<a href="#services"><?php _e('Services', 'symbos') ?></a>
+					<a href="#services"><?php _e('Leistungen', 'symbos') ?></a>
 				</li>
 				<li class="flex items-center gap-2">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path class="uim-primary" d="M21 10H3A1 1 0 0 1 2 9V6A3.00328 3.00328 0 0 1 5 3H19a3.00328 3.00328 0 0 1 3 3V9A1 1 0 0 1 21 10zM14 14H10a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2z"></path>
 						<path class="uim-tertiary" d="M4,10v8a3.00328,3.00328,0,0,0,3,3H17a3.00328,3.00328,0,0,0,3-3V10Zm10,4H10a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Z"></path>
 					</svg>
-					<a href="#projects"><?php _e('Projects', 'symbos') ?></a>
+					<a href="#projects"><?php _e('Projekte', 'symbos') ?></a>
 				</li>
 				<li class="flex items-center gap-2">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
@@ -65,14 +65,14 @@
 						<path class="uim-primary" d="M14 2.001h2v18h-2z"></path>
 						<path class="uim-tertiary" d="M17 2.001h-1v18h-2v-18H5a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a3.003 3.003 0 0 0 3-3v-12a3.003 3.003 0 0 0-3-3z"></path>
 					</svg>
-					<a href="#experience"><?php _e('Experience', 'symbos') ?></a>
+					<a href="#experience"><?php _e('Erfahrung', 'symbos') ?></a>
 				</li>
 				<li class="flex items-center gap-2 lg:hidden">
 					<svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<path class="uim-tertiary" d="M12 21H4a1 1 0 0 1-.707-1.707l1.675-1.675A9 9 0 1 1 12 21Z"></path>
 						<path class="uim-primary" d="M15.92 10.76a.997.997 0 0 1-.707-.293l-1.92-1.92a1 1 0 0 1 1.414-1.414l1.213 1.213 3.373-3.373a1 1 0 0 1 1.414 1.414l-4.08 4.08a.997.997 0 0 1-.707.293Z"></path>
 					</svg>
-					<a href="#contact"> <?php _e('Contact', 'symbos') ?></a>
+					<a href="#contact"> <?php _e('Kontakt', 'symbos') ?></a>
 				</li>
 			</ul>
 			<div class="justify-end flex-1 hidden lg:flex">
@@ -82,7 +82,7 @@
 						<path class="uim-tertiary" d="M12 21H4a1 1 0 0 1-.707-1.707l1.675-1.675A9 9 0 1 1 12 21Z"></path>
 						<path class="uim-primary" d="M15.92 10.76a.997.997 0 0 1-.707-.293l-1.92-1.92a1 1 0 0 1 1.414-1.414l1.213 1.213 3.373-3.373a1 1 0 0 1 1.414 1.414l-4.08 4.08a.997.997 0 0 1-.707.293Z"></path>
 					</svg>
-					<?php _e('Contact', 'symbos') ?>
+					<?php _e('Kontakt', 'symbos') ?>
 				</a>
 			</div>
 		</nav>
