@@ -40,18 +40,16 @@
                     <div class="inline-flex p-1 mb-2 text-white rounded-lg bg-cod-gray-300">
                         <img class="w-12 -hue-rotate-[50deg]" src="<?php echo get_template_directory_uri() ?>/images/icons/monitor.webp" alt="">
                     </div>
-                    <h2 class="mb-2 text-xl font-bold">Personalized Website Development</h2>
-                    <p class="line-clamp-5">Your online journey matters. That's why I'll work with you to develop a website that's uniquely yours, making sure it's both user-friendly and attractive.</p>
+                    <h2 class="mb-2 text-xl font-bold">Individuelle Webseiten-Entwicklung</h2>
+                    <p class="line-clamp-6">Deine Online-Präsenz ist wichtig. Daher arbeite ich eng mit dir zusammen, um eine Webseite zu entwickeln, die sowohl benutzerfreundlich als auch attraktiv gestaltet ist.</p>
                 </div>
                 <div class="p-4 border-2 rounded-lg service-box bg-gradient-to-tr from-cod-gray-500 to-cod-gray-400 border-cod-gray-300">
                     <div class="inline-flex p-1 mb-2 text-white rounded-lg bg-cod-gray-300">
                         <img class="w-12 -hue-rotate-[50deg]" src="<?php echo get_template_directory_uri() ?>/images/icons/google.webp" alt="">
 
                     </div>
-                    <h2 class="mb-2 text-xl font-bold">Local SEO with Google My Business</h2>
-                    <p class="line-clamp-5">I'll work to help your business shine locally. I focus on optimizing your Google My Business profile to its full potential, allowing you to stand out in search results.
-
-                    </p>
+                    <h2 class="mb-2 text-xl font-bold">Lokale SEO mit Google My Business</h2>
+                    <p class="line-clamp-6">Ich unterstütze dein Unternehmen dabei, lokal zu glänzen. Mein Fokus liegt auf der Optimierung deines Google My Business-Profils, um deine Sichtbarkeit in den Suchergebnissen zu maximieren.</p>
                 </div>
             </div>
             <div class="flex flex-col gap-4">
@@ -59,20 +57,16 @@
                     <div class="inline-flex p-1 mb-2 text-white rounded-lg bg-cod-gray-300">
                         <img class="w-12 -hue-rotate-[50deg]" src="<?php echo get_template_directory_uri() ?>/images/icons/browser.webp" alt="">
                     </div>
-                    <h2 class="mb-2 text-xl font-bold">Website & Application Redesign</h2>
-                    <p class="line-clamp-5">Ready for a digital makeover? I specialize in redesigning websites and applications to improve their look and feel, functionality, and overall user experience.</p>
+                    <h2 class="mb-2 text-xl font-bold">Redesign von Webseiten & Anwendungen</h2>
+                    <p class="line-clamp-6">Zeit für ein digitales Makeover? Ich habe mich darauf spezialisiert, Webseiten und Anwendungen neu zu gestalten, um ihr Aussehen, ihre Funktionalität und das gesamte Nutzererlebnis zu verbessern.</p>
                 </div>
                 <div class="p-4 border-2 rounded-lg service-box bg-gradient-to-tr from-cod-gray-500 to-cod-gray-400 border-cod-gray-300">
                     <div class="inline-flex p-1 mb-2 text-white rounded-lg bg-cod-gray-300">
                         <img class="w-12 -hue-rotate-[50deg]" src="<?php echo get_template_directory_uri() ?>/images/icons/swatchbook.webp" alt="">
 
                     </div>
-                    <h2 class="mb-2 text-xl font-bold">
-                        Creative Brand & Print Design
-                    </h2>
-                    <p class="line-clamp-5">I'll help you encapsulate the spirit of your business into eye-catching designs, creating a consistent brand identity that communicates with your audience effectively.
-
-                    </p>
+                    <h2 class="mb-2 text-xl font-bold">Kreatives Marken- & Printdesign</h2>
+                    <p class="line-clamp-6">Gemeinsam fangen wir den Geist deines Unternehmens in ansprechenden Designs ein und schaffen so eine einheitliche Markenidentität, die effektiv mit deiner Zielgruppe kommuniziert.</p>
                 </div>
             </div>
         </div>
@@ -84,16 +78,9 @@
                 </svg>
                 Leistungen
             </div>
-            <h2 class="text-5xl font-bold">Crafting Digital Experiences with Precision and Passion</h2>
-            <p>
-                Whether you're an individual or a business, my mission is to transform your digital presence into something truly unique and impactful. I bring a blend of perfectionism and passion to each project, ensuring the end result is something that both you and I can be proud of.
-            </p>
-            <p>
-                <strong>The key to my approach lies in collaboration.</strong> I believe in involving you at each step, enabling us to capture your vision accurately and translate it into a digital reality. Whether it's crafting a striking website, producing compelling brand and print designs, optimizing your local search presence, or giving your site or application a fresh new look - I'm here to help you create a digital experience that truly reflects your brand.
-
-
-            </p>
-
+            <h2 class="text-5xl font-bold">Precision & Passion</h2>
+            <p>Ob du ein Einzelunternehmer oder ein Unternehmen bist, meine Mission besteht darin, deine digitale Präsenz in etwas Einzigartiges und Wirkungsvolles zu verwandeln. Mit Perfektionismus und Leidenschaft bringe ich jedes Projekt zum Abschluss, sodass das Endergebnis uns beide stolz machen kann.</p>
+            <p><strong>Der Schlüssel zu meinem Ansatz liegt in der Zusammenarbeit.</strong> Ich bin davon überzeugt, dich in jeden Schritt einzubeziehen, um deine Vision präzise zu erfassen und in eine digitale Realität zu übersetzen. Ob es darum geht, eine beeindruckende Webseite zu erstellen, überzeugende Marken- und Printdesigns zu produzieren, deine lokale Suchpräsenz zu optimieren oder deiner Seite oder Anwendung ein frisches Aussehen zu verleihen - ich bin hier, um dir dabei zu helfen, ein digitales Erlebnis zu schaffen, das deine Marke wirklich widerspiegelt.</p>
         </div>
     </div>
 </section>
@@ -108,13 +95,8 @@
             Projekte
         </div>
         <h2 class="text-5xl font-bold">Behind the Screens</h2>
-        <p class="lg:text-center">
-            Welcome to my portfolio, a showcase of my diverse work in the digital landscape. You'll find a range of projects here, from cautious crafted websites to the innovative redesign of interfaces, all reflecting my passion.
-
-
-        </p>
-        <p class="lg:text-center"> Beyond digital, I also work in print design, each project carrying the same high standards for quality and practicality. I believe every project, no matter its size, deserves the best.</p>
-
+        <p class="lg:text-center">Schau dir mein Portfolio an! Hier findest du verschiedene Projekte, von handgemachten Webseiten bis hin zu frischen Interface-Designs - alles Ausdruck meiner Begeisterung für das Digitale.</p>
+        <p class="lg:text-center"> Aber nicht nur das, ich designe auch für Printmedien und setze dabei immer hohe Maßstäbe an Qualität und Nutzen. Denn ich bin der Meinung: Jedes Projekt, egal wie groß, verdient nur das Beste.</p>
     </div>
     <div>
         <div class="max-w-[1920px] max-xl:container px-4 xl:px-8 relative flex w-full gap-6 swiper projects">
@@ -127,7 +109,7 @@
                     </div>
                     <div>
                         <h2 class="text-xl font-bold">beziehungs-weberei.de</h2>
-                        <p class=" line-clamp-2">Crafted a clean, modern WordPress site for a freelance coach and resilience trainer.</p>
+                        <p class=" line-clamp-2">Klare, moderne Wordpress-Seite für einen Coach und Resilienztrainer.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-2 swiper-slide">
@@ -137,7 +119,7 @@
                     </div>
                     <div>
                         <h2 class="text-xl font-bold">physiomed-bremen.de</h2>
-                        <p class=" line-clamp-2">Created a modern and minimalistic website for a physiotherapy clinic, including a staff photoshoot.</p>
+                        <p class=" line-clamp-2">Moderne, minimalistische Webseite mit Staff-Fotoshooting für Physiotherapiepraxis.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-2 swiper-slide">
@@ -145,11 +127,8 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-gratis-bergbahnen-webseite.webp" alt="">
                     </div>
                     <div>
-
                         <h2 class="text-xl font-bold">gratis-bergbahnen.net</h2>
-                        <p class=" line-clamp-2">Designed an interactive website displaying free cable car rides, including logo creation and color scheme.
-
-                        </p>
+                        <p class=" line-clamp-2">Interaktive Webseite mit kostenlosem Seilbahn-Angebot, inklusive Logodesign.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-2 swiper-slide">
@@ -157,11 +136,8 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src="<?php echo get_template_directory_uri() ?>/images/mockup/mockup-lapiazza-speisekarte.webp" alt="">
                     </div>
                     <div>
-
                         <h2 class="text-xl font-bold">La Piazza Menu</h2>
-                        <p class=" line-clamp-2">Print design project for a restaurant menu, emphasizing realistic food imagery in a modern design layout.
-
-                        </p>
+                        <p class=" line-clamp-2">Speisekarten-Printdesign mit realistischen Food-Bildern im modernen Layout.</p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-2 swiper-slide">
@@ -169,9 +145,8 @@
                         <img class="transition-all duration-500 hover:rotate-3 hover:scale-110" src=" <?php echo get_template_directory_uri() ?>/images/mockup/mockup-sevdesk-redesign.webp" alt="">
                     </div>
                     <div>
-
                         <h2 class="text-xl font-bold">sevDesk UI Redesign</h2>
-                        <p class=" line-clamp-2">Proposed redesign of sevDesk's web interface, with modernized icons and improved user guidance.</p>
+                        <p class=" line-clamp-2">Redesign der sevDesk-Web-Oberfläche, mit modernisierten Icons und Nutzerführung.</p>
                     </div>
                 </div>
             </div>
@@ -193,17 +168,11 @@
                     <path class="uim-quaternary" d="M14 2.001h2v18h-2z"></path>
                     <path class="uim-tertiary" d="M17 2.001h-1v18h-2v-18H5a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a3.003 3.003 0 0 0 3-3v-12a3.003 3.003 0 0 0-3-3z"></path>
                 </svg>
-                Experience
+                Erfahrung
             </div>
-            <h2 class="text-5xl font-bold">The Journey So Far</h2>
-            <p>
-                Step into the timeline of my professional journey. From my earliest roles to my current position, this section maps out the progression of my career and the experiences that have shaped my skill set. It's a testament to continuous learning, adaptation, and commitment to my craft. Have a look to understand how I've evolved in my field, and what I bring to your projects.
-            <h2 class="text-3xl font-bold">Grids of Expertise</h2>
-            <p>
-                Here you'll find a snapshot of the various software and tools I have used.
-            </p>
+            <h2 class="text-5xl font-bold">My Journey</h2>
+            <p>Dieser Abschnitt gibt einen Überblick über meinen beruflichen Werdegang und die verschiedenen Software und Tools, die ich bisher verwendet habe.</p>
             <div id="grids-of-expertise" class="flex flex-wrap gap-2">
-
                 <div class="grid-of-expertise">
                     <div class="flex flex-wrap gap-2">
 
@@ -318,8 +287,6 @@
                         </svg>
                     </div>
                     <p class="text-xs md:text-center">Design & Animation</p>
-
-
                 </div>
 
 
@@ -357,22 +324,60 @@
         <ol id="work-places" class="flex flex-col gap-8 border-l-[3px] border-white/10 max-lg:mx-4 ">
             <li class="flex gap-4 -ml-6 lg:gap-8">
                 <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.321 28.707">
-                        <path d="M44.391,36.656l-3.325,3.313L37.75,36.656l3.316-3.316Zm1.107,1.1L42.17,41.076,45.486,44.4,48.8,41.076Zm-8.84,0L33.33,41.076l7.736,7.731L44.391,45.5Zm20.994,21-4.409-4.409,4.409-4.409L54.326,46.6l-4.409,4.42L45.509,46.6,42.17,49.916l4.409,4.409L42.17,58.733l3.316,3.313,4.409-4.409L54.3,62.047Z" transform="translate(-33.33 -33.34)" fill="currentColor" />
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.521 14.87" fill="currentColor">
+                        <path d="M100.77,7.68c0,4.86,2.7,7.19,7.78,7.19s7.74-2.33,7.74-7.19S113.62,0,108.55,0,100.77,2.84,100.77,7.68Z" transform="translate(-100.77)" />
                     </svg>
                 </div>
                 <div class="flex flex-col items-start gap-3 mt-[5.5px]">
-                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2017 - 07.2021</span>
+                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">01.2022 - Jetzt</span>
 
                     <hgroup>
-                        <h2 class="text-2xl font-bold">gratis-Bergbahnen.net - Webseite</h2>
-                        <p class="text-xl">Hochschule Bremen</p>
+                        <h2 class="text-2xl font-bold">Webentwickler & UI/UX-Designer</h2>
+                        <p class="text-xl">moskito GmbH & Co. KG</p>
                     </hgroup>
-                    <p>Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung.
+                    <p>Als Webentwickler bei der Mosktio GmbH & Co. KG liegt mein Schwerpunkt auf der Entwicklung von eigenen WordPress-Themes für Kunden oder der eigenen Unternehmens-Website. Aber auch die Umsetzung von One-Pager-Webseiten gehören zu meinem Alltag. Zudem bin ich stets bestrebt, neue Technologien in meine Arbeit zu integrieren, um innovative und effektive Lösungen für die Webpräsenzen von Unternehmen zu schaffen.</p>
+                </div>
+            </li>
+            <li class="flex gap-4 -ml-6 lg:gap-8">
+                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.321 28.707">
+                        <path d="M44.391,36.656l-3.325,3.313L37.75,36.656l3.316-3.316Zm1.107,1.1L42.17,41.076,45.486,44.4,48.8,41.076Zm-8.84,0L33.33,41.076l7.736,7.731L44.391,45.5Zm20.994,21-4.409-4.409,4.409-4.409L54.326,46.6l-4.409,4.42L45.509,46.6,42.17,49.916l4.409,4.409L42.17,58.733l3.316,3.313,4.409-4.409L54.3,62.047Z" transform="translate(-33.33 -33.34)" fill="currentColor" />
+                    </svg>
 
-                        Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit bieten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen. </p>
+                </div>
+                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
+                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2021 - Jetzt</span>
 
+                    <hgroup>
+                        <h2 class="text-2xl font-bold">Selbstständiger Webentwickler</h2>
+                        <p class="text-xl">Nikolai Lehbrink - Conception, Design and Development</p>
+                    </hgroup>
+                    <p>Als selbstständiger Webentwickler liegt mein Hauptaugenmerk auf der Gestaltung und dem Redesign von Webseiten. Ich helfe Einzelpersonen und Unternehmen dabei, ihre Online-Präsenz durch benutzerfreundliche und ansprechende Websites zu verbessern und zu erweitern. Die Anforderungen meiner Kunden setze ich mit Liebe zum Detail und technischer Präzision um.</p>
+                </div>
+            </li>
+            <li class="flex gap-4 -ml-6 lg:gap-8">
+                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" fill="currentColor" viewBox="59 139.1 393.6 214.16">
+                        <g transform="translate(0,512) scale(0.100000,-0.100000)" stroke="none">
+                            <path d="M3670 3397 c-443 -181 -806 -331 -808 -333 -4 -2 340 -340 420 -413 l46 -42 164 158 c90 87 336 324 548 527 212 203 401 384 420 403 19 18 30 32 25 32 -6 -1 -372 -150 -815 -332z"></path>
+                            <path d="M3792 2998 c-402 -386 -730 -703 -728 -705 10 -10 822 -249 828 -244 9 8 638 1644 634 1649 -2 1 -332 -313 -734 -700z"></path>
+                            <path d="M2630 3219 c0 -2 58 -202 129 -444 l128 -440 44 -12 c24 -6 53 -12 64 -12 13 0 72 49 160 133 l140 134 -225 218 c-124 120 -273 265 -332 323 -60 58 -108 103 -108 100z"></path>
+                            <path d="M2532 3049 c-29 -90 -83 -262 -121 -381 l-68 -217 71 -15 c331 -73 421 -93 424 -91 3 3 -233 818 -246 849 -6 13 -22 -26 -60 -145z"></path>
+                            <path d="M1532 2890 c-474 -37 -866 -70 -869 -74 -3 -3 1 -6 10 -6 9 0 377 -78 819 -174 442 -96 806 -172 809 -168 4 4 39 109 78 234 39 125 74 234 77 242 8 21 87 25 -924 -54z"></path>
+                            <path d="M590 2786 c0 -3 325 -276 722 -607 606 -506 724 -600 738 -591 36 22 905 674 907 681 2 3 -525 120 -1170 260 -644 140 -1178 256 -1184 259 -7 2 -13 2 -13 -2z"></path>
+                            <path d="M2575 1928 c-242 -182 -429 -328 -415 -325 251 56 1656 413 1647 418 -13 7 -784 240 -789 238 -2 0 -201 -149 -443 -331z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
+                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">04.2020 - 05.2021</span>
 
+                    <hgroup>
+                        <h2 class="text-2xl font-bold">Wordpress-Entwickler</h2>
+                        <p class="text-xl">Jung&Billig GmbH</p>
+                    </hgroup>
+                    <p>Bei Jung & Billig GmbH war ich als Webentwickler tätig. Mein Fokus lag auf der Erstellung und Umsetzung von Webseiten und Online-Shops mit WordPress und WooCommerce. Auch ein großes Shopware-Projekt zählte zu meinen Aufgaben.</p>
+                    <p>Zusätzlich betrieb ich regelmäßige Prozessoptimierung, dazu zählten die Einführung eines Firmenwikis und die Verbesserung der Server-Ordnerstruktur.</p>
                 </div>
             </li>
             <li class="flex gap-4 -ml-6 lg:gap-8">
@@ -386,77 +391,14 @@
                     <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2017 - 07.2021</span>
 
                     <hgroup>
-                        <h2 class="text-2xl font-bold">gratis-Bergbahnen.net - Webseite</h2>
+                        <h2 class="text-2xl font-bold">Internationaler Studiengang Medieninformatik B. Sc.</h2>
                         <p class="text-xl">Hochschule Bremen</p>
                     </hgroup>
-                    <p>Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung.
-
-                        Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit bieten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen. </p>
-
-
-                </div>
-            </li>
-            <li class="flex gap-4 -ml-6 lg:gap-8">
-                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.321 28.707">
-                        <path d="M44.391,36.656l-3.325,3.313L37.75,36.656l3.316-3.316Zm1.107,1.1L42.17,41.076,45.486,44.4,48.8,41.076Zm-8.84,0L33.33,41.076l7.736,7.731L44.391,45.5Zm20.994,21-4.409-4.409,4.409-4.409L54.326,46.6l-4.409,4.42L45.509,46.6,42.17,49.916l4.409,4.409L42.17,58.733l3.316,3.313,4.409-4.409L54.3,62.047Z" transform="translate(-33.33 -33.34)" fill="currentColor" />
-                    </svg>
-
-                </div>
-                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
-                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2017 - 07.2021</span>
-
-                    <hgroup>
-                        <h2 class="text-2xl font-bold">gratis-Bergbahnen.net - Webseite</h2>
-                        <p class="text-xl">Hochschule Bremen</p>
-                    </hgroup>
-                    <p>Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung.
-
-                        Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit bieten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen. </p>
-
-
-                </div>
-            </li>
-            <li class="flex gap-4 -ml-6 lg:gap-8">
-                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.321 28.707">
-                        <path d="M44.391,36.656l-3.325,3.313L37.75,36.656l3.316-3.316Zm1.107,1.1L42.17,41.076,45.486,44.4,48.8,41.076Zm-8.84,0L33.33,41.076l7.736,7.731L44.391,45.5Zm20.994,21-4.409-4.409,4.409-4.409L54.326,46.6l-4.409,4.42L45.509,46.6,42.17,49.916l4.409,4.409L42.17,58.733l3.316,3.313,4.409-4.409L54.3,62.047Z" transform="translate(-33.33 -33.34)" fill="currentColor" />
-                    </svg>
-
-                </div>
-                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
-                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2017 - 07.2021</span>
-
-                    <hgroup>
-                        <h2 class="text-2xl font-bold">gratis-Bergbahnen.net - Webseite</h2>
-                        <p class="text-xl">Hochschule Bremen</p>
-                    </hgroup>
-                    <p>Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung.
-
-                        Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit bieten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen. </p>
-
-
-                </div>
-            </li>
-            <li class="flex gap-4 -ml-6 lg:gap-8">
-                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.321 28.707">
-                        <path d="M44.391,36.656l-3.325,3.313L37.75,36.656l3.316-3.316Zm1.107,1.1L42.17,41.076,45.486,44.4,48.8,41.076Zm-8.84,0L33.33,41.076l7.736,7.731L44.391,45.5Zm20.994,21-4.409-4.409,4.409-4.409L54.326,46.6l-4.409,4.42L45.509,46.6,42.17,49.916l4.409,4.409L42.17,58.733l3.316,3.313,4.409-4.409L54.3,62.047Z" transform="translate(-33.33 -33.34)" fill="currentColor" />
-                    </svg>
-
-                </div>
-                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
-                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">10.2017 - 07.2021</span>
-
-                    <hgroup>
-                        <h2 class="text-2xl font-bold">gratis-Bergbahnen.net - Webseite</h2>
-                        <p class="text-xl">Hochschule Bremen</p>
-                    </hgroup>
-                    <p>Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung.
-
-                        Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit bieten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen. </p>
-
-
+                    <blockquote cite="https://www.hs-bremen.de/studieren/studiengang/internationaler-studiengang-medieninformatik-b-sc">
+                        <p>
+                            Der Studiengang stellt die erforderlichen Konzepte, Methoden und Technologien in den Vordergrund und verbindet zu diesem Zweck zentrale Themen der Informatik und Mathematik mit Fragestellungen der Mensch-Computer-Interaktion und Mediengestaltung. Das Studium ist anwendungs- und praxisorientiert und international ausgerichtet. Projekte, Wahlpflichtfächer, Auslandssemester, Praxisphase sowie Bachelorarbeit boten vielfältige Möglichkeiten, je nach persönlicher Neigung individuelle Schwerpunkte zu setzen.
+                        </p>
+                    </blockquote>
                 </div>
             </li>
 
@@ -505,9 +447,7 @@
             <h2 class="text-5xl font-bold">Lets get in touch!</h2>
             <div class="">
                 <img id="profile-image" class="float-left w-16 h-16 mr-4 border-2 rounded-full shape-circle lg:w-28 lg:h-28 border-pumpkin" src="https://avatars.githubusercontent.com/u/38915700?v=3" alt="GitHub-Profilbild von Nikolai Lehbrink">
-                <p class="italic ">„Hi! Schön, dass du auf meiner Seite vorbeischaust.
-                    Ich bin Webentwickler und leidenschaftlicher UI/UX-Designer aus Bremen, Deutschland.
-                    Neben Projekten wie dieser Website, erstelle ich in engem Kundenkontakt Webseiten und Online-Shops - gestalte aber auch Print-Produkte wie Visiten- oder Speisekarten.“
+                <p class="italic ">„Hi. Willkommen auf meiner Webseite. Nach etlichen Änderungen und vielen verschiedenen Designs, die ich über die letzten Jahre entworfen habe, bin ich sehr stolz auf das Ergebnis. <br> Wenn du Anmerkungen hast, oder einfach mal „Hallo“ sagen willst, dann kontaktiere mich doch einfach!“
                 </p>
             </div>
             <div class="space-y-2">
