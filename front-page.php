@@ -324,22 +324,6 @@
         <ol id="work-places" class="flex flex-col gap-8 border-l-[3px] border-white/10 max-lg:mx-4 ">
             <li class="flex gap-4 -ml-6 lg:gap-8">
                 <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.521 14.87" fill="currentColor">
-                        <path d="M100.77,7.68c0,4.86,2.7,7.19,7.78,7.19s7.74-2.33,7.74-7.19S113.62,0,108.55,0,100.77,2.84,100.77,7.68Z" transform="translate(-100.77)" />
-                    </svg>
-                </div>
-                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
-                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">01.2022 - Jetzt</span>
-
-                    <hgroup>
-                        <h2 class="text-2xl font-bold">Webentwickler & UI/UX-Designer</h2>
-                        <a href="https://moskito.de" target="_blank" class="text-xl">moskito GmbH & Co. KG</a>
-                    </hgroup>
-                    <p>Als Webentwickler bei der Mosktio GmbH & Co. KG liegt mein Schwerpunkt auf der Entwicklung von eigenen WordPress-Themes für Kunden oder der eigenen Unternehmens-Website. Aber auch die Umsetzung von One-Pager-Webseiten gehören zu meinem Alltag. Zudem bin ich stets bestrebt, neue Technologien in meine Arbeit zu integrieren, um innovative und effektive Lösungen für die Webpräsenzen von Unternehmen zu schaffen.</p>
-                </div>
-            </li>
-            <li class="flex gap-4 -ml-6 lg:gap-8">
-                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.42 229.42" fill="currentColor">
                         <path d="m160.46,126.53L23.99,37.22v178.56c0,7.53-5.37,13.64-12,13.64s-12-6.11-12-13.64V13.64C0,8.77,2.28,4.27,5.99,1.83c3.71-2.44,8.28-2.44,11.99-.01l154.45,101.07c5.74,3.76,7.71,12.09,4.41,18.62-3.31,6.53-10.64,8.77-16.38,5.01ZM217.42,0C210.8,0,205.43,6.11,205.43,13.64v178.56L68.96,102.89c-5.74-3.76-13.08-1.51-16.38,5.01-3.3,6.52-1.33,14.86,4.41,18.62l154.45,101.08c1.85,1.21,3.92,1.82,5.99,1.82s4.15-.61,6-1.83c3.71-2.44,5.99-6.94,5.99-11.8V13.64C229.42,6.11,224.05,0,217.42,0Z" />
                     </svg>
@@ -352,6 +336,22 @@
                         <a href="https://nikolailehbr.ink" target="_blank" class="text-xl">Nikolai Lehbrink - Conception, Design and Development</a>
                     </hgroup>
                     <p>Als selbstständiger Webentwickler liegt mein Hauptaugenmerk auf der Gestaltung und dem Redesign von Webseiten. Ich helfe Einzelpersonen und Unternehmen dabei, ihre Online-Präsenz durch benutzerfreundliche und ansprechende Websites zu verbessern und zu erweitern. Die Anforderungen meiner Kunden setze ich mit Liebe zum Detail und technischer Präzision um.</p>
+                </div>
+            </li>
+            <li class="flex gap-4 -ml-6 lg:gap-8">
+                <div class="flex justify-center w-12 h-12 shrink-0 sticky top-4 lg:top-28 p-3 rounded-full shadow-[0_0_0_8px] bg-cerulean-500 shadow-cod-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.521 14.87" fill="currentColor">
+                        <path d="M100.77,7.68c0,4.86,2.7,7.19,7.78,7.19s7.74-2.33,7.74-7.19S113.62,0,108.55,0,100.77,2.84,100.77,7.68Z" transform="translate(-100.77)" />
+                    </svg>
+                </div>
+                <div class="flex flex-col items-start gap-3 mt-[5.5px]">
+                    <span class="px-3 py-2 rounded-full text-small bg-cerulean">01.2022 - 08.2023</span>
+
+                    <hgroup>
+                        <h2 class="text-2xl font-bold">Webentwickler & UI/UX-Designer</h2>
+                        <a href="https://moskito.de" target="_blank" class="text-xl">moskito GmbH & Co. KG</a>
+                    </hgroup>
+                    <p>Als Webentwickler bei der Mosktio GmbH & Co. KG liegt mein Schwerpunkt auf der Entwicklung von eigenen WordPress-Themes für Kunden oder der eigenen Unternehmens-Website. Aber auch die Umsetzung von One-Pager-Webseiten gehören zu meinem Alltag. Zudem bin ich stets bestrebt, neue Technologien in meine Arbeit zu integrieren, um innovative und effektive Lösungen für die Webpräsenzen von Unternehmen zu schaffen.</p>
                 </div>
             </li>
             <li class="flex gap-4 -ml-6 lg:gap-8">
